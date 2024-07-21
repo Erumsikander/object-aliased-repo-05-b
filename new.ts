@@ -20,7 +20,7 @@ let Employee : ITManager =
     city : "Karachi"
 }
 
-console.log(Employee.name + " " + Employee.position + " " + Employee.salary + " " + Employee.experience + " " + Employee.city);
+// console.log(Employee.name + " " + Employee.position + " " + Employee.salary + " " + Employee.experience + " " + Employee.city);
 console.log(Employee["name"]);
 console.log(Employee["position"]);
 console.log(Employee["salary"]);
